@@ -1,0 +1,26 @@
+:root {
+  /* Base (warm white, not cold) */
+  --bg-page:      #FDF8F3;   /* page background */
+  --bg-card:      #FAF4EE;   /* card surfaces */
+  --bg-surface:   #F3EBE1;   /* input fields, inner surfaces */
+  --border:       #E8DDD0;   /* borders everywhere */
+  --text:         #2C1F14;   /* primary text */
+  --text-muted:   #8C7B6E;   /* secondary text */
+
+  /* Accents (warm & colorful, used sparingly) */
+  --rescue:       #F4845F;   /* SOS button, urgent = rescue orange */
+  --amber:        #E8A87C;   /* donation events, warm highlights */
+  --rose:         #D4607A;   /* livestream, gifts, love/care */
+  --sage:         #7B9E87;   /* stable status, calm = muted sage */
+  --lavender:     #B07FBF;   /* admin portal, fund tracking */
+  --blue:         #5B8DB8;   /* maps, vet clinic portal */
+}
+
+/* Global Reset for App.css */
+body {
+  background-color: var(--bg-page);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
