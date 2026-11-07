@@ -10,7 +10,7 @@ import RescueQueue from './views/user/RescueQueue';
 import AdminQueue from './views/admin/AdminQueue'; 
 import FundDashboard from './views/admin/FundDashboard'; 
 import ShelterIoT from './views/admin/ShelterIoT'; 
-import Chatbot from './views/user/chatbot'; // <-- Point this to your new chatbot view location
+import Chatbot from './views/user/Chatbot';
 
 export default function App() {
   const [activePortal, setActivePortal] = useState('user');
